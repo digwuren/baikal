@@ -2,6 +2,7 @@ Gem::Specification.new do |s|
     s.name = 'baikal'
     s.version = '1.1.0'
     s.date = '2014-05-24'
+    s.homepage = 'https://github.com/digwuren/baikal'
     s.summary = 'A blob handling toolkit'
     s.author = 'Andres Soolo'
     s.email = 'dig@mirky.net'
