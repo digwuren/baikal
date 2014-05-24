@@ -1,0 +1,11 @@
+GPL-3
+History.txt
+Makefile
+Manifest.txt
+README.txt
+baikal.gemspec
+lib/baikal.rb
+lib/baikal/cursor.rb
+lib/baikal/hexdump.rb
+lib/baikal/tweak.rb
+test/test_baikal.rb

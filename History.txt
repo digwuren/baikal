@@ -1,0 +1,10 @@
+=== 1.1.0 / 2014-05-25
+
+* Upgraded to the new String#pack interface of modern Ruby (1.9.3+)
+* Discarded the natord access methods in favour of selecting the native byte
+  order as the current byte order
+* Wrote more unit tests
+
+=== 1.0.0 / 2009-09-11
+
+* First version
