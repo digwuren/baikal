@@ -21,6 +21,12 @@ bytecode engines.
 
 Baikal is implemented in plain Ruby.
 
+The String#pack interface Baikal uses appeared in Ruby 1.9.3.
+
+Ruby 2.1 or later is needed to manipulate octabytes in the native byte order.
+Octabytes in an explicit BigEndian or LittleEndian byte order should work with
+1.9.3 or later.
+
 == LICENSE
 
 Copyright (c) 2009-2014 by Andres Soolo <dig@mirky.net>.
