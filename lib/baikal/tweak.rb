@@ -1,5 +1,3 @@
-# $Id: tweak.rb 93 2009-10-19 15:05:26Z dig $
-
 require_relative '../baikal'
 
 module Baikal

@@ -17,6 +17,10 @@ bytecode engines.
     port.print pool.bytes
   end
 
+  require 'baikal/hexdump'
+
+  Baikal.hexdump pool.bytes
+
 == REQUIREMENTS
 
 Baikal is implemented in plain Ruby.

@@ -1,5 +1,3 @@
-# $Id$
-
 require_relative '../baikal'
 
 module Baikal

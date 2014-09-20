@@ -1,5 +1,3 @@
-# $Id: hexdump.rb 1275 2009-10-03 10:28:54Z digwuren $
-
 module Baikal
   #
   # Hexdumps bytes from +data_source+ into the given +port+ (by default,

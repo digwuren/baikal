@@ -1,10 +1,8 @@
 #
 # Baikal is a tool for generating, parsing and modifying binary objects.
 #
-# $Id: baikal.rb 90 2009-10-19 15:02:43Z dig $
-#
 module Baikal
-  VERSION = '1.1.0'
+  VERSION = '1.1.1'
 
   #
   # Represents a byte pool.  Byte pools are resizeable arrays of bytes.  Data
@@ -38,10 +36,9 @@ module Baikal
     end
 
     #
-    # Creates a new byte pool of the network byte order.the host system's
-    # native endianness.  If +initial_content+ is given, loads its bytes to
-    # the newly created byte pool.  Otherwise, the byte pool will be empty
-    # after creation.
+    # Creates a new byte pool of the network byte order.  If +initial_content+
+    # is given, loads its bytes to the newly created byte pool.  Otherwise, the
+    # byte pool will be empty after creation.
     #
     def Pool::new_of_network_byte_order initial_content = ''
       raise 'Type mismatch' unless initial_content.is_a? String
@@ -51,10 +48,9 @@ module Baikal
     end
 
     #
-    # Creates a new byte pool of the reverse network byte order.the host
-    # system's native endianness.  If +initial_content+ is given, loads its
-    # bytes to the newly created byte pool.  Otherwise, the byte pool will
-    # be empty after creation.
+    # Creates a new byte pool of the reverse network byte order.  If
+    # +initial_content+ is given, loads its bytes to the newly created byte
+    # pool.  Otherwise, the byte pool will be empty after creation.
     #
     def Pool::new_of_reverse_network_byte_order initial_content = ''
       raise 'Type mismatch' unless initial_content.is_a? String
